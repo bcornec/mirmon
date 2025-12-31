@@ -9,9 +9,9 @@ WriteMakefile(
     VERSION      => '2.12',
     INST_SCRIPT  => 'blib/bin',
     INSTALLDIRS  => 'perl',
-    ABSTRACT_FROM => 'bin/mirmon',   # retrieve abstract from module
+    ABSTRACT_FROM => 'mirmon',   # retrieve abstract from module
     AUTHOR        => 'Bruno Cornec <bruno#musique-ancienne.org>',
-    EXE_FILES     => [ qw( bin/pb bin/pbg bin/pbvi ) ],
-    MAN1PODS      => { 'bin/mirmon' => '$(INST_MAN1DIR)/mirmon.$(MAN1EXT)', },
-    MAN3PODS      => { 'lib/mirmon/Mirmon.pm' => '$(INST_MAN3DIR)/mirmon.$(MAN3EXT)', },
+    EXE_FILES     => [ qw( mirmon probe ) ],
+    MAN1PODS      => { 'mirmon' => '$(INST_MAN1DIR)/mirmon.$(MAN1EXT)', },
+    MAN3PODS      => { 'Mirmon.pm' => '$(INST_MAN3DIR)/mirmon.$(MAN3EXT)', },
 );
