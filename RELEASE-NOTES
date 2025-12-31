@@ -7,6 +7,11 @@ Upgrading :
    http://www.staff.science.uu.nl/~penni101/mirmon/svn/trunk/countries.list
 
 ----------------------------------------------------------------------
+mirmon 2.12 -- 1 january 2026
+
+o Packaged with ExtUtils::MakeMakers for Mageia and transfered to github
+
+----------------------------------------------------------------------
 mirmon 2.11 -- 22 juli 2016
 
 o Brent Thompson spotted a bug in the computation for 'median' ; fixed.

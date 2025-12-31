@@ -29,7 +29,7 @@
 use strict ;
 
 our $PRG = 'mirmon' ;
-our $VER = "2.11" ;
+our $VER = "2.12" ;
 
 our $DEF_TIMEOUT = 300 ;
 our $HIST        = 14 ;
@@ -1851,6 +1851,9 @@ mirmon(1)
   <br />
   mirmon-2.11 - Sat Jul 23 09:12:31 2016 ; henkp ;
   <a href="http://validator.w3.org/check?uri=referer">verify html</a>
+  &copy; 2026
+  Bruno Cornec
+  mirmon-2.12
   </p>
 
 =end html
@@ -1861,6 +1864,8 @@ mirmon(1)
   Faculty of Science, Utrecht University
   http://www.staff.science.uu.nl/~penni101/ -- penning@uu.nl
   mirmon-2.11 - Sat Jul 23 09:12:31 2016 ; henkp
+  (c) 2026 Bruno Cornec
+  mirmon-2.12
 
 =end man
 
@@ -1870,6 +1875,8 @@ mirmon(1)
   Faculty of Science, Utrecht University
   http://www.staff.science.uu.nl/~penni101/ -- penning@uu.nl
   mirmon-2.11 - Sat Jul 23 09:12:31 2016 ; henkp
+  (c) 2026 Bruno Cornec
+  mirmon-2.12
 
 =end text
 
